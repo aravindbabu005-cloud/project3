@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f1f5f9;
+
+    color: #111827;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    margin: 15px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border-radius: 15px;
+}
+
+header h1 {
+    margin: 0;
+
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 10px;
+
+    font-size: 17px;
+}
+
+
+/* =========================
+   PRODUCTS
+========================= */
+
+.products {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    padding: 40px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+    width: 260px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+/* CARD CONTENT */
+
+.card-content h2 {
+    margin-top: 0;
+
+    font-size: 22px;
+}
+
+.card-content p {
+    color: #64748b;
+
+    line-height: 1.5;
+}
+
+.card-content h3 {
+    color: #2563eb;
+
+    font-size: 23px;
+}
+
+
+/* BUTTON */
+
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    margin-top: 20px;
+
+    padding: 40px 20px;
+
+    text-align: center;
+
+    background-color: #111827;
+
+    color: white;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    color: #cbd5e1;
+}
+
+.copyright {
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #374151;
+
+    color: #94a3b8;
+}
