@@ -77,6 +77,7 @@ header p {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 
     transition: 0.3s;
+
 }
 
 .card:hover {
@@ -164,4 +165,10 @@ footer p {
     border-top: 1px solid #374151;
 
     color: #94a3b8;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
